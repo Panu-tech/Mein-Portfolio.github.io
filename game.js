@@ -22,8 +22,8 @@ canvas.addEventListener('click', (event) => {
     const rect = canvas.getBoundingClientRect();
     var x = event.clientX - rect.left;
     var y = event.clientY - rect.top;
-    alert("X= " + x)
-    alert("Y= "+y)
+    // alert("X= " + x)
+    // alert("Y= "+y)
     if (x >= waldo.x && x <= waldo.x + waldo.width && y >= waldo.y && y <= waldo.y + waldo.height) {
         alert('You found Waldo!');
     } else {
